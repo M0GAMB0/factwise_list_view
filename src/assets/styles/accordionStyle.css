@@ -16,3 +16,11 @@
 .labelStyle {
   color: #878789;
 }
+.toolIcon {
+  cursor: pointer;
+}
+.listName {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+}
