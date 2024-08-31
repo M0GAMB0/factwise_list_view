@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# React Task Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project was created as part of the recruitment process for the Frontend role at Factwise. The goal was to implement users details listing with accordion and search bar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **User Details Listing**: Displays a list of users with their details in an accordion format, allowing users to expand and collapse each section to view individual user details.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Search Functionality**: A search bar is included at the top of the page, enabling users to quickly find specific users by typing in their names or other relevant information.
 
-- Configure the top-level `parserOptions` property like this:
+- **Edit User**: Provides an option to edit the details of existing users. Clicking the edit button allows users to update information directly within the application.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Delete User**: Includes a delete functionality that enables users to remove a user from the list with a single click. A confirmation prompt ensures that the user really wants to delete the selected user.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Responsive Design**: The application is fully responsive, ensuring that it works seamlessly on both desktop and mobile devices.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Installation and Setup
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd factwiseAssessment
+3. **Install dependencies:**
+   ```bash
+   npm install
+4. **Start the development server:**
+   ```bash
+   npm run dev
+
+##Screenshots
+
+Here are some screenshots of the application:
+
+![Expand View](https://i.postimg.cc/13xcfVQ8/Screenshot-2024-08-31-230113.png)
+
+![Search View](https://i.postimg.cc/3NTn4tVb/Screenshot-2024-08-31-230349.png)
+
+![Edit View](https://i.postimg.cc/t4bT7WBv/Screenshot-2024-08-31-230830.png)
+
+![Delete View](https://i.postimg.cc/6q707DpK/delete-modal.png)
+
