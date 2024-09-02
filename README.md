@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
    ```bash
    cd factwiseAssessment
 3. **Install dependencies:**
-   ``
+   ```bash
    npm install
 4. **Start the development server:**
    ```bash
