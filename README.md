@@ -8,7 +8,7 @@ This project was created as part of the recruitment process for the Frontend rol
 
 - **User Details Listing**: Displays a list of users with their details in an accordion format, allowing users to expand and collapse each section to view individual user details.
 
-- **Search Functionality**: A search bar is included at the top of the page, enabling users to quickly find specific users by typing in their names or other relevant information.
+- **Search Functionality**: A search bar is included at the top of the page, enabling users to quickly find specific users by typing in their names.
 
 - **Edit User**: Provides an option to edit the details of existing users. Clicking the edit button allows users to update information directly within the application.
 
